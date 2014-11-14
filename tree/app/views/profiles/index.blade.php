@@ -24,6 +24,16 @@
 <p><a href="{{action('AuthController@logout')}}">Logout</a></p>
 </div>
 </div>
+<div class="module-search module">
+    <h2 class="module-header"></h2>
+    <div class="module-content">
+        <form id="search-blog" method="get"
+          action="http://www.robotbooks.com/search">
+            <input type="search" name="filter.q" results="5" value="" />
+            <input type="submit" value="Search" />
+        </form>
+    </div>
+</div>
 <div  style="backround:#fff;border:5px solid #ff7400;width:30%;float:left;margin-left:20px;">
 <h6>Who Else Uses E-botics</h6>
 <table>

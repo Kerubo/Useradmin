@@ -1,7 +1,18 @@
 @extends('master')
 @section('content')
     <div id="wrapper">
-      
+         <div class="module-search module">
+    <h2 class="module-header"></h2>
+    <div class="module-content">
+        <form id="search-blog" method="get"
+          action="http://www.robotbooks.com/search">
+            <input type="search" name="filter.q" results="5" value="" />
+            <input type="submit" value="Search" />
+        </form>
+    </div>
+</div>
+
+         
 <div id="slideshow-wrap">
         <input type="radio" id="button-1" name="controls" checked="checked"/>
         <label for="button-1"></label>
@@ -78,7 +89,7 @@
             </ul>
         </div>
     </div>
-
+<br><br><br>
 
     <div class="problems">
    <div class="pro">
@@ -103,7 +114,7 @@
     
  </div>
 <div id="footer">
-    <div id="copyright text-right">© copyright ebotickenya 2014</div>
+    <div id="copyright text-right"><h4>© copyright ebotickenya 2014</h4></div>
 
 </div> 
 

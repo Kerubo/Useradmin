@@ -16,7 +16,7 @@
       <ul class="nav navbar-nav">
     <a class="navbar-brand" rel="home" href="#" >
         <img style="max-width:100px; margin-top: -13px;"
-             src="/assets/images/logo.jpg">
+             src="/assets/images/ebotics.">
     </a>
 		<li><a href="/">HOME</a></li>
 		<li><a href="/about">ABOUT</a></li>
@@ -26,9 +26,9 @@
       <li><a href="/contact">CONTACTS</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
+        <li><a href="/signup">LOGIN|SIGNUP</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Togle Navigation <span class="caret"></span></a>
+          <a href="home/index" class="dropdown-toggle" data-toggle="dropdown">Administration<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="#">Admin Login</a></li>
             <li><a href="#">user Login</a></li>
