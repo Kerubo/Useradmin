@@ -22,7 +22,7 @@
 		<li><a href="/about">ABOUT</a></li>
 		<li><a href="/team">TEAM</a></li>
     <li><a href="/product">PRODUCTS</a></li>
-		<li><a href="/advertisments">ADVERTS</a></li>
+		<li><a href="/Advertisments">ADVERTS</a></li>
       <li><a href="/contact">CONTACTS</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">

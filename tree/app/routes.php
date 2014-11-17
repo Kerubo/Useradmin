@@ -19,6 +19,7 @@ Route::get('/about', function()
 {
 	return View::make('ebotics.about');
 });
+
 Route::get('/advertisments', function()
 {
 	return View::make('auth.login');
@@ -36,6 +37,10 @@ Route::get('/contact', function()
 	return View::make('ebotics.contact');
 });
 
+Route::get('/index', function()
+{
+	return View::make('ebotics.index');
+});
 // Route for sign up page
 Route::get('signup', 'AuthController@signUpPage');
 Route::post('signup', 'AuthController@signup');

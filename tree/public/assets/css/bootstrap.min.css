@@ -322,7 +322,7 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
 	border-color: none;
 }
 #pick1 ul li{
-	background: #fff;
+	background: #ff7400;
 	display: inline;
 	float: left;
 	z-index: 0;
@@ -333,7 +333,8 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
 	text-align: center;
 	font-family: "Marker Felt",sans-serif;
 	text-decoration: none;
-	color: #333;
+	color: #016AD0;
+	border: 4px solid #016AD0;
 	font-size: 18px;
 	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
 	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
@@ -363,8 +364,9 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
 	display: inline-block;
 	text-decoration: none;
 }
-#pick1 {
+#pick1 ul li img {
 	margin:0;
+	border-radius: 50%;
 
 }
 .about{
@@ -413,3 +415,4 @@ h4{text-align: center;
    h3{text-align: center;
    color: #ff7400;
   font-weight: heavy;}
+ 

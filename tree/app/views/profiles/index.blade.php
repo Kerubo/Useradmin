@@ -1,16 +1,22 @@
-@extends('layouts.master')
+@extends('master')
  
 
 @section('title')
  
 @section('content')
 
-<body background="http://www.sonicavenger.com/uploaded_images/ClearBlueSky-741012.jpg">
+
 
 
 <div  style="border:5px solid #ff7400;width:60%;height:600px;;float:left;margin-left:50px;">
 <div  style="backround-color:#cff;">
 <h2>E-botics Kenya</h2>
+<div class="pull-right">
+ <a href="/posts" class=" btn btn-default" style="background:#fff;colour:ff7400;">READ SOMETHING EXCITING</a>
+
+
+<p><a href="{{action('AuthController@logout')}}">Logout</a></p>
+</div>
 <p>
     <h4> Hello <i class="fa fa-user"></i>  {{ Auth::user()->profile->firstname }}<br> Welcome to E-bortics Learning centre   </h4>
 </p>
@@ -18,15 +24,12 @@
 <!---<img src="{{Auth::user()->gravatar()}}" alt="" />-->
 
 </p>
- <a href="/posts" class=" btn btn-primary">READ SOMETHING EXCITING</a>
 
-
-<p><a href="{{action('AuthController@logout')}}">Logout</a></p>
 </div>
 </div>
 <div class="module-search module">
     <h2 class="module-header"></h2>
-    <div class="module-content">
+    <div class="module-content" >
         <form id="search-blog" method="get"
           action="http://www.robotbooks.com/search">
             <input type="search" name="filter.q" results="5" value="" />

@@ -1,9 +1,9 @@
-@extends('layouts.master')
+@extends('master')
  
 @section('title')
  
 @section('content')
- <body background="http://www.sonicavenger.com/uploaded_images/ClearBlueSky-741012.jpg">
+
 <div class='col-lg-4 col-lg-offset-4' style="backround:#fff;border:5px solid #ff7400;">
 
 <div class="all" >
