@@ -416,3 +416,223 @@ h4{text-align: center;
    color: #ff7400;
   font-weight: heavy;}
  
+/*styling contact page*/
+#file{width: 800px;
+      height: 300px;}
+
+form{margin-left: 100px;}     
+
+
+/*nav ul{margin: 0;
+       padding: 0;}
+
+nav li{list-style: none;
+       font-size: 14px;
+       float: left;
+       text-align: center;}
+
+nav li a{display: inline;
+         margin-right: 25px;
+         text-decoration: none;
+         width: 9em;
+         padding: 8px;
+         font-style:Park Avenue;
+         color: green;
+         line-height: 1.50em;}
+
+nav li:hover > a{color: #ff7400;}
+
+nav li ul{display: none;
+          text-align: left;
+          margin: 0;
+          padding: 0 1em;
+          background: none;}
+
+nav li:hover ul, nav li.hover ul{display: block;
+                                 position: absolute;
+                                 padding: 0;}
+
+nav li:hover li, nav li.hover li{float: none;}
+
+nav li:hover li a, nav li.hover li a{width: 9em;
+                                     margin-top: 0;}
+
+nav li a:hover{background: none;
+               color: #76wrt6;}
+
+nav:after{visibility: hidden;
+          display: block;
+          font-size: 0px;
+          content: "";
+          clear: both;
+          height: 0px;}
+
+/**styling section**/
+section #videos{width: 1000px;
+                height:360px;}
+
+section #slideImage{width: 1000px;
+                height:250px;}
+
+ section img{margin-top:20px;
+    margin-left:10px;
+    width: 370px;
+    height: 300px;
+border: 2px solid #ff7400;}
+#pics iframe {width: 500px;
+               height:300px;
+               border-radius: 5%;
+               box-shadow: 3%;
+               margin-top: 40px;
+               border:4px double #ff7400;}
+
+h4{color:#a52a2a;}
+
+h5{color:rgb(204,204,204);}
+
+h1{color:rgb(204,204,204);}
+
+p.me{float:left;
+     color:white;
+     font-size:12px;
+     margin-left:10px;
+     margin-top:25px;}
+
+p.you{color:white;
+      font-size:12px;
+      float:right;
+      margin-left:20px;}
+
+iframe{float:left;
+       margin-left:60px;}
+
+section #robo{width: 1000px;
+height: 500px;}
+
+section #tics{width: 1000px;
+              height: 500px;}
+
+#content{
+         min-height: 620px;
+      
+         margin:0 auto;}
+
+
+#hyth{width: 520px;
+        height: 600px;
+        float: left;
+        margin: 10px;
+        border-left:4px #008000 solid;}   
+
+#ght{width: 510px;
+        height: 200px;
+        border-bottom: 4px #008000 solid;}
+
+#robo{width: 510px;
+        height: 200px;
+        border-bottom: 4px #008000 solid;}
+
+#tr{width: 510px;
+        height: 200px;}
+
+p.main{padding: 15px;}        
+
+img.me{float: left;
+       margin-left: 10px;
+       margin-right: 10px;
+       margin-top: 15px;}
+**styling section**/
+section #robo{width: 1000px;
+                height:500px;
+                margin-bottom: 20px;}
+
+section #mimi{width: 1000px;
+                height:400px;}
+
+img{margin-top:20px;
+    margin-left:20px;}
+
+h4{color:#a52a2a;}
+
+h5{color:rgb(204,204,204);}
+
+h1{color:rgb(204,204,204);}
+
+p.me{float:left;
+     color:white;
+     font-size:12px;
+     margin-left:10px;
+     margin-top:25px;}
+
+p.you{color:white;
+      font-size:12px;
+      float:right;
+      margin-left:20px;}
+
+iframe{float:left;
+       margin-left:10px;}
+
+section #images{width: 1000px;}
+
+section #pics{width: 1000px;
+              height: 500px;}
+
+
+              #logo{width: 1000px;
+      height: 100px;
+     padding: 4px;
+     margin-left: 10px;
+        margin-left: 18px;}
+     
+     
+#ogo{width: 650px;
+      height: 90px;
+     padding: 4px;
+   
+     float: left;}
+     
+ #log{width: 300px;
+      height: 90px;
+     padding: 4px;
+   
+     float: left;
+     
+    margin-right: 30px;}    
+   h1{font-weight:4pxtext-align: center;}
+   small{color: #fff;}
+          
+/*The Header*/
+#header{ padding: 4px;
+        position: relative;
+        margin-left: 40px;
+   
+        margin:10px;
+        width: 1040px;
+        height: 150px;
+        text-align: center;
+        margin-left: 15px;
+     }
+
+
+#logo{width: 1000px;
+      height: 100px;
+     padding: 4px;
+     margin-left: 10px;
+        margin-left: 18px;}
+     
+     
+#ogo{width: 650px;
+      height: 100px;
+     padding: 4px;
+         
+     float: left;}
+     
+ #log{width: 300px;
+      height: 100px;
+   
+   background-color: #fff;
+     float: left;
+  }    
+   h1{font-weight:4pxtext-align: center;}
+   small{color: #fff;}
+     

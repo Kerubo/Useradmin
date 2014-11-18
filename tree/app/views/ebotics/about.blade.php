@@ -12,21 +12,7 @@
     </div>
 </div>
 
-      
-<div class="picha">
-    
-</div>
 
- <div id="cart">
-
-</div>
-
-</div>
-
-<div id="footer">
-    <div id="copyright text-right">© Copyright 2014 eboticskenya</div>
-
-</div> 
 
 @stop
  

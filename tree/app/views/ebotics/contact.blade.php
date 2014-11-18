@@ -1,25 +1,15 @@
-<!doctype html>
-<html>
-<head>
-	@include('includes.head')
-</head>
-<body>
-<div class="container">
+@extends('master')
+@section('content')
+    <div id="wrapper">
+<h2>Contact Us</h2>
 
-	<header class="row">
-		@include('includes.header')
-	</header>
-
-	<div id="main" class="row">
-
-			@yield('content')
-
-	</div>
-
-	<footer class="row">
-		@include('includes.footer')
-	</footer>
-
-</div>
-</body>
-</html>
+      <div id="file">
+      	<form>
+          <input type="Text" name="name" placeholder="Name:"/><br><br>
+          <input type="Text" name="email" placeholder="Email:"/><br><br>
+          <textarea name="messageBox" rows="10" cols="50" placeholder="Write Your Message Here:"></textarea><br>
+          <input type="Submit" value="Submit" onclick="alert('Details successfully saved');"/>
+        </form>
+      </div>
+      </div>
+      @stop

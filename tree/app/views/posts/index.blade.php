@@ -26,6 +26,7 @@
         </form>
     </div>
 </div>
+
   <!--
   <p>
   {{Form::open(['route' => 'posts.search', 'method' => 'GET', 'class' => 'form-inline'])}}

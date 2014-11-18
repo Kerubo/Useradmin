@@ -27,7 +27,8 @@
 
 </div>
 </div>
-<div class="module-search module">
+<h4>Who Else Uses E-botics</h4>
+<div class="module-search module" style="float:right;">
     <h2 class="module-header"></h2>
     <div class="module-content" >
         <form id="search-blog" method="get"
@@ -37,8 +38,10 @@
         </form>
     </div>
 </div>
+<br>
+
 <div  style="backround:#fff;border:5px solid #ff7400;width:30%;float:left;margin-left:20px;">
-<h6>Who Else Uses E-botics</h6>
+
 <table>
     <thead>
       <th>Photo</th>

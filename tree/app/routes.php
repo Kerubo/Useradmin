@@ -22,7 +22,11 @@ Route::get('/about', function()
 
 Route::get('/advertisments', function()
 {
-	return View::make('auth.login');
+	return View::make('ebotics.Advertisments');
+});
+Route::get('/adverts', function()
+{
+	return View::make('ebotics.adverts');
 });
 Route::get('/team', function()
 {
