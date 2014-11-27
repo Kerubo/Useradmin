@@ -28,7 +28,8 @@
   <ul>
   
     @foreach($todos as $todo)
-      <p>{{{ $todo->todo }}}</p>
+      <p2>{{{ $todo->todo }}}</p2>
+      <br>
     @endforeach
   </ul>
   </div>

@@ -74,39 +74,25 @@
 <br><br>
 <img src="assets/images/Ebot.png" height="100%" width="100%">
 
-
+<p>
 </div>
 </div>
 <div id="slider">
-Being the best Programmer all over the World
-2. Work with Successful Programmers eg in Akirachix(Linda)
-3. Gender Equality int Tech Industry
-4. Programming Included in the school curriculum
-5. Increase the number of women in Technology
-6. More Successful startups by Women
-7. Being Part of Promoting Women in Technology
-8. An Akirachix Boot Camp being held in Nakuru
-9. To have a hackerthon (competition) hosted by women who have advanced in technology with
-only men as the participants.
-10. Encouraging more girls to take up careers in the Technology Industry and change the attitude
-towards such careers
-11. Having more women in the Technology Industry make impact in the society
-12. See Linda and Nyandia Everyday
-13. Girls Teaching other girls to code
+
 </div>
 <!-- footer --><div id="footer">
   
 <div id="lid">
-<br><br>
-<h1>About Us</h1>
+
+
 </div>
 <div id="li">
-<br><br>
-<h1>Contacts</h1>
+
+<img src="assets/images/png.png">
 </div>
 <div id="lide">
-  <br><br>
-<h1>social links</h1>
+  
+
 </div>
 </div><!-- end footer -->
 </div><!-- end content -->

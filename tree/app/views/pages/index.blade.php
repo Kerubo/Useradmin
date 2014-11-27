@@ -19,7 +19,7 @@
 <div id="header">
 <!--start header-->
 <div id="logo">
-<div id="log"><img src="assets/images/ebotics.png" width="250px" height="250px"></div>
+<div id="log"><img src="assets/images/ebotics.png" width="100%" height="100%"></div>
 <div id="ogo"><h1>E-botics<br><small>Kenya</small></h1></div>
 <div id="head">
 
@@ -124,7 +124,7 @@ towards such careers
 <img src="assets/images/s5.jpg" width="100%" height="100%">
 </div>
 <div id="sli">
-<img src="assets/images/watoto.jpg" width="100%" height="100%">
+<img src="assets/images/df.jpeg" width="100%" height="100%">
 </div>
 </div>
 <!-- footer --><div id="footer">

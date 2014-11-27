@@ -7,7 +7,7 @@
 <br><br><br><br>
 <div id="slidar">
   <div class="page-header">
-    <h2>Create Todo item</h2>
+    <h2>Update Sessions</h2>
   </div>
   {{Form::open(['route' => 'todos.store'])}}
   <div class="form-group">
