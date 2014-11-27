@@ -11,6 +11,7 @@
   </div>
   @include('todos.search')
   <ul>
+  Here
     @foreach ($todos as $todo)
       <li>{{ $todo->todo }}</li>
     @endforeach

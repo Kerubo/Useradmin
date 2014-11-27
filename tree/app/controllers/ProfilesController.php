@@ -63,7 +63,7 @@ class ProfilesController extends \BaseController {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function show($id)
+	/*public function show($id)
 	{
         $profile = Auth::user()->profile;
 		return View::make('profiles.show', compact('profile'));

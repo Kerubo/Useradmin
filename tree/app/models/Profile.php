@@ -2,7 +2,7 @@
 
 class Profile extends Eloquent
 {
-    protected $fillable = ['firstname', 'lastname', 'phone'];
+    protected $fillable = ['firstname', 'lastname'];
 
     public function user()
     {

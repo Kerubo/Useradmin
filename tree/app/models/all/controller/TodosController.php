@@ -1,9 +1,10 @@
 <?php
 
 class TodosController extends \BaseController {
-
-	public function __construct()
+     Protected $todo;
+	public function __construct(Todo $todo)
 	{
+		$this->todo = $todo;
 		$this->beforeFilter('auth');
 	}
 
@@ -44,17 +45,32 @@ class TodosController extends \BaseController {
 	 */
 	public function store()
 	{
+		// $data = ['todo' => Input::get('todo')];
+		// $validation = Validator::make($data, ['todo' => 'required']);
+		// if($validation->passes())
+		// {
+		// 	$todo        = new Todo($data);
+		// 	$user        = Auth::user();
+		// 	$createdtodo = $user->todo()->save($todo);
+
+		// 	if($createdtodo){
+		// 		return Redirect::route('todos.index')->with('message', 'Todo created.');
+		// 	}
+		// }
 		$data = ['todo' => Input::get('todo')];
+		$data['user_id'] = 1;
 		$validation = Validator::make($data, ['todo' => 'required']);
 		if($validation->passes())
-		{
-			$todo        = new Todo($data);
-			$user        = Auth::user();
-			$createdtodo = $user->todos()->save($todo);
+		{   
+			$this->todo->create($data);
+			// $user        = Auth::user();
+			// $todo        = new Todo($data);
+			// $user        = Auth::user();
+			// $createdtodo = $user->todo()->save($todo);
 
-			if($createdtodo){
+			// if($createdtodo){
 				return Redirect::route('todos.index')->with('message', 'Todo created.');
-			}
+			// }
 		}
 
 		return Redirect::back()->withErrors($validation);

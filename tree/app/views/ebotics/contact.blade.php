@@ -1,6 +1,10 @@
 @extends('master')
 @section('content')
-    <div id="wrapper">
+   
+
+
+   <div id="wrapper">
+   <br><br>
 <h2>Contact Us</h2>
 
       <div id="file">
@@ -11,5 +15,22 @@
           <input type="Submit" value="Submit" onclick="alert('Details successfully saved');"/>
         </form>
       </div>
+ 
+
+ <div id="tent">
+<div id="rad4"><img src="assets/images/ht.png" height="200" width="200">
+</div>
+<div id="rad5">
+<ul><li>Nokia</li>
+<li>Sumsung</li>
+<li>Lg</li>
+<li>Techno</li></ul>
+</div>
+<div id="rad6"></div>
+</div>
+</div>
+</div>
+ 
+      
       </div>
       @stop

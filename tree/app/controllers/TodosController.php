@@ -47,14 +47,14 @@ class TodosController extends \BaseController {
 		$data = ['todo' => Input::get('todo')];
 		$validation = Validator::make($data, ['todo' => 'required']);
 		if($validation->passes())
-		{
-			$todo        = new Todo($data);
-			$user        = Auth::user();
-			$createdtodo = $user->todos()->save($todo);
+		{   $this->todo->create($data);
+			// $todo        = new Todo($data);
+			// $user        = Auth::user();
+			// $createdtodo = $user->todo()->save($todo);
 
-			if($createdtodo){
+			// if($createdtodo){
 				return Redirect::route('todos.index')->with('message', 'Todo created.');
-			}
+			// }
 		}
 
 		return Redirect::back()->withErrors($validation);

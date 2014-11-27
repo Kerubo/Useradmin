@@ -10,14 +10,21 @@
         <style>
             body {
                 margin-top: 5%;
-                border-image: url(../http://www.sonicavenger.com/uploaded_images/ClearBlueSky-741012.jpg);
+               
             }
         </style>
     </head>
     <body>
+
+ 
         <div class='container-fluid'>
+             <div class='row'>
+                @yield('search')
+
+            </div>
             <div class='row'>
                 @yield('content')
+
             </div>
         </div>
     </body>

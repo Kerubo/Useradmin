@@ -42,7 +42,7 @@
     </div>
  
     <a href="/user/create" class="btn btn-success">Add User</a>
-     <a href="/todos" class=" btn btn-primary">Update Content</a>
+    <a href="{{route('todos.create')}}" class="btn btn-default">update info</a>
 </div>
  </body>
 @stop

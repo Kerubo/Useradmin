@@ -2,7 +2,7 @@
  
 @section('title')
  
-@section('content')
+@section('search')
  
 
 {{Form::open(['action' => 'TodosController@search', 'method' => 'GET', 'class' => 'form-inline'])}}
