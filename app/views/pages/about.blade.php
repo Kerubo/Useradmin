@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>FONT AWESOME Yahoooooo</title>
+<title>E-botics Kenya</title>
 
 <link href="assets/css/normalize.css" rel="stylesheet" type="text/css">
 <link href="assets/css/main.css" rel="stylesheet" type="text/css">
@@ -71,22 +71,28 @@
 
 <div id="container">
 <div id="slide">
-<br><br><br>
-<h1>Robotics<br><br><br>Enterprenuership</h1>
-</div>
-<div id="slid">
-<br><br><br>
-<h1>Content</h1>
-</div>
-<div id="sli">
-<br><br><br>
-<br><br><br>
-<h1>Share<br><br><br>Contest<br><br><br>Group</h1>
+<br><br>
+<img src="assets/images/Ebot.png" height="100%" width="100%">
+
+
 </div>
 </div>
 <div id="slider">
-<br><br><br>
-<h1>Slider</h1>
+Being the best Programmer all over the World
+2. Work with Successful Programmers eg in Akirachix(Linda)
+3. Gender Equality int Tech Industry
+4. Programming Included in the school curriculum
+5. Increase the number of women in Technology
+6. More Successful startups by Women
+7. Being Part of Promoting Women in Technology
+8. An Akirachix Boot Camp being held in Nakuru
+9. To have a hackerthon (competition) hosted by women who have advanced in technology with
+only men as the participants.
+10. Encouraging more girls to take up careers in the Technology Industry and change the attitude
+towards such careers
+11. Having more women in the Technology Industry make impact in the society
+12. See Linda and Nyandia Everyday
+13. Girls Teaching other girls to code
 </div>
 <!-- footer --><div id="footer">
   

@@ -87,7 +87,33 @@
 
 <!-- footer --><div id="footer">
   
-<h2>TECH AND KIDS</h2>
+<h2>TECH AND KIDS</h2><p>
+Being the best Programmer all over the World
+2. Work with Successful Programmers eg in Akirachix(Linda)
+3. Gender Equality int Tech Industry
+4. Programming Included in the school curriculum
+5. Increase the number of women in Technology
+6. More Successful startups by Women
+7. Being Part of Promoting Women in Technology
+8. An Akirachix Boot Camp being held in Nakuru
+9. To have a hackerthon (competition) hosted by women who have advanced in technology with
+only men as the participants.
+10. Encouraging more girls to take up careers in the Technology Industry and change the attitude
+towards such careers
+11. Having more women in the Technology Industry make impact in the society
+Being the best Programmer all over the World
+2. Work with Successful Programmers eg in Akirachix(Linda)
+3. Gender Equality int Tech Industry
+4. Programming Included in the school curriculum
+5. Increase the number of women in Technology
+6. More Successful startups by Women
+7. Being Part of Promoting Women in Technology
+8. An Akirachix Boot Camp being held in Nakuru
+9. To have a hackerthon (competition) hosted by women who have advanced in technology with
+only men as the participants.
+10. Encouraging more girls to take up careers in the Technology Industry and change the attitude
+towards such careers
+11. Having more women in the Technology Industry make impact in the society
 </p>
 </div><!-- end footer -->
 <div id="container">
@@ -103,8 +129,35 @@
 </div>
 <!-- footer --><div id="footer">
   
-<h2>TECH AND KIDS</h2>
-<p>Internet clients and servers use IP addresses when they communicate </p>
+<h2>KIDS</h2>
+<p>Internet clients and servers use IP addresses when they communicate 
+Being the best Programmer all over the World
+2. Work with Successful Programmers eg in Akirachix(Linda)
+3. Gender Equality int Tech Industry
+4. Programming Included in the school curriculum
+5. Increase the number of women in Technology
+6. More Successful startups by Women
+7. Being Part of Promoting Women in Technology
+8. An Akirachix Boot Camp being held in Nakuru
+9. To have a hackerthon (competition) hosted by women who have advanced in technology with
+only men as the participants.
+10. Encouraging more girls to take up careers in the Technology Industry and change the attitude
+towards such careers
+11. Having more women in the Technology Industry make impact in the society
+Being the best Programmer all over the World
+2. Work with Successful Programmers eg in Akirachix(Linda)
+3. Gender Equality int Tech Industry
+4. Programming Included in the school curriculum
+5. Increase the number of women in Technology
+6. More Successful startups by Women
+7. Being Part of Promoting Women in Technology
+8. An Akirachix Boot Camp being held in Nakuru
+9. To have a hackerthon (competition) hosted by women who have advanced in technology with
+only men as the participants.
+10. Encouraging more girls to take up careers in the Technology Industry and change the attitude
+towards such careers
+11. Having more women in the Technology Industry make impact in the society
+</p>
 </div><!-- end footer -->
 </div><!-- end content -->
 
