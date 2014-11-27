@@ -1,5 +1,6 @@
 @extends('master')
 @section('content')
+ {{HTML::style('assets/css/main.css')}}
     <div id="wrapper">
     <br>
    <div id="content">
@@ -17,72 +18,51 @@
 </div>
 
 <div id="cont">
-
-<div id="a">
-<img src="assets/images/images.jpeg" height="480" width="300">
-</div>
-
-<div id="b">
-<div id="e">
-Entrepreneurship can log in a website and learn everything that they want about this two subjects
-from the basics to elementary learning. An example is a student can learn Robotics by using local
-apparatus to make robots like bottle tops and motors.
-</div>
-<div id="f">
-<img src="assets/images/png.png" height="260" width="375">
-</div>
-<div id="g">
-Entrepreneurship can log in a website and learn everything that they want about this two subjects
-from the basics to elementary learning. An example is a student can learn Robotics by using local
-apparatus to make robots like bottle tops and motors.
-Entrepreneurship can log in a website and learn everything that they want about this two subjects
-from the basics to elementary learning. An example is a student can learn Robotics by using local
-apparatus to make robots like bottle tops and motors.
-Entrepreneurship can log in a website and learn everything that they want about this two subjects
-from the basics to elementary learning. An example is a student can learn Robotics by using local
-apparatus to make robots like bottle tops and motors.
-</div>
-
-</div>
-
+<div class="pull-right btn-group" style="align:center">
+     <a href="/todos" class="btn btn-primary" >Robotics</a> 
+      <a href="/quiz" class="btn btn-primary" >Entreprenuership</a> 
+      <a href="/logout" class="btn btn-primary" >Logout</a>   
+    </div>
+<br><br>
+<h4>INTRODUCTION TO ROBOTICS| UNIT ONE</h4>
+<iframe width="700" height="400" src="//www.youtube.com/embed/sLflN8gJ2G0" frameborder="0" allowfullscreen></iframe>
+<br><h4><a href="/">How To Build A Robot For Beginners </a></h4>
 </div>
 <div id="tent">
+<h4> Here is what we need</h4>
 <div id="rad4">
 <ul class="a">
- <li>Apples</li>
- <li>Bananas</li>
- <li>Lemons</li>
- <li>Oranges</li>
+ <li>Card Board</li>
+ <li>Paper</li>
+ <li>pencil</li>
+ <li>wires</li>
 </ul>  
 </div>
 <div id="rad5">
-<ul class="b"><li>Nokia</li>
-<li>Sumsung</li>
-<li>Lg</li>
-<li>Techno</li></ul>
+<ul class="b"><li>Card Board</li>
+ <li>Paper</li>
+ <li>pencil</li>
+ <li>wires</li>
 </div>
 <div id="rad6">
     <ul class="a">
- <li>Apples</li>
- <li>Bananas</li>
- <li>Lemons</li>
- <li>Oranges</li>
+ <li>Card Board</li>
+ <li>Paper</li>
+ <li>pencil</li>
+ <li>wires</li>
 </ul>  
 </div>
 </div>
+<div id="cont">
+<iframe width="700" height="400" src="//www.youtube.com/embed/X3PvFqkRlvQ" frameborder="0" allowfullscreen></iframe>
+<br><h4><a href="/">tutorial for beginers For Beginners </a></h4>
+</div>
+
 </div>
 </div>
 <!--end content-->
 
-<p>THE IDEA<br>
-Focusing on primary school students from the age of 6 to 14 who have a passion in technology
-but have no means of accessing the tutorials or means to learn the subjects by themselves, We
-therefore took the initiative of finding out from the students and parents how much they would
-like to have the access of the subjects at their fingertips since they are very essential.
-There is need for an education platform where students who have a passion for Robotics and
-Entrepreneurship can log in a website and learn everything that they want about this two subjects
-from the basics to elementary learning. An example is a student can learn Robotics by using local
-apparatus to make robots like bottle tops and motors.</p>
+
 
 
 @stop

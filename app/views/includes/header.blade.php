@@ -1,6 +1,6 @@
-<nav class="navbar navbar-default" role="navigation" style="background:#106DA0;">
+<!--<nav class="navbar navbar-default" role="navigation" style="background:#106DA0;">
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
+  
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">NAVIGATION</span>
@@ -8,13 +8,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <!-- <a class="navbar-brand" href="#">Single Malt</a> -->
+   
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
+>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-    <a class="navbar-brand" rel="home" href="#" >
+    <a class="navbar-brand" rel="home" href="#"  style="backgroung:#106DA0;">
         <img style="max-width:100px; margin-top: -13px;"
              src="/assets/images/ebotics.png">
     </a>
@@ -39,7 +39,68 @@
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+  
+
+  <div id="header">
+<!--start header-->
+<div id="logo">
+<div id="log"><img src="assets/images/ebotics.png" width="100%" height="100%"></div>
+<div id="ogo"><h1>E-botics<br><small>Kenya</small></h1></div>
+<div id="head">
+
+<nav><!--start of nav-->
+        <ul><!--start of main ul-->
+        <li>
+             <a href="/">HOME</a>
+            <ul>
+              <li><a href="brief.html">US</a></li> 
+              <li><a href="">More</a></li>
+            </ul>
+          </li>
+        
+        <li>
+             <a href="/about">ABOUT</a>
+            <ul>
+              <li><a href="">Brief</a></li> 
+              <li><a href="">More</a></li>
+            </ul>
+          </li>
+          <li>
+             <a href="/team">TEAM</a>
+            <ul>
+              <li><a href="brief.html">Brief</a></li> 
+              <li><a href="">More</a></li>
+            </ul>
+          </li>
+          <li>
+             <a href="/product">ADVERTS</a>
+           <ul>
+             <li><a href="">E-botics</a></li>
+             <li><a href="">Entreprenuership</a></li>
+             <li><a href="">Explore</a></li>
+           </ul>
+          </li>
+          <li>
+             <a href="/contact">CONTACTS</a>
+            <ul>
+              <li><a href="">Social</a></li>
+              <li><a href="">Locations</a></li>
+            </ul>
+            <li>
+             <a href="/home">ADMIN</a>
+            <ul>
+              <li><a href="">UPDATES</a></li>
+              <li><a href="">ADVERTISE</a></li>
+            </ul>
+          </li>
+        </ul><!--end of main ul-->
+        <br clear="all">
+      </nav><!--end of nav-->
+
+</div>
+
+</div>
+</div>
 
 
 

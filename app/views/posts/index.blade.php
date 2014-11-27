@@ -1,6 +1,12 @@
+
 @extends('master')
+@section('title')
+ 
 @section('content')
+ {{HTML::style('assets/css/main.css')}}
 <div id="wrapper">
+<div id="content">
+<br><br><br><br>
 <br>
   <div class="page-header">
     @if(Auth::check())
@@ -8,7 +14,7 @@
       <a href="{{route('posts.create')}}" class="btn btn-default">Create Blog</a>-->
      <div class="pull-right btn-group" style="align:center">
      <a href="/todos" class="btn btn-primary" >Robotics</a> 
-      <a href="quiz/index" class="btn btn-primary" >Entreprenuership</a> 
+      <a href="/quiz" class="btn btn-primary" >Entreprenuership</a> 
       <a href="/logout" class="btn btn-primary" >Logout</a>   
     </div>
  <!--   @else
@@ -36,7 +42,7 @@
   <div class="chapter">
       
       <h3 tabindex="-1" aria-selected="false" aria-controls="ui-accordion-accordion-panel-0" id="ui-accordion-accordion-header-0" role="tab" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" aria-label="Week 1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>
-        <a href="/quiz">Robotics Level&nbsp;1</a>
+        <a href="/posts">Introduction</a>
       </h3>
 
     <ul aria-hidden="true" aria-expanded="false" role="tabpanel" aria-labelledby="ui-accordion-accordion-header-0" id="ui-accordion-accordion-panel-0" style="display: none;" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
@@ -63,7 +69,7 @@
   <div class="chapter">
       
       <h3 tabindex="-1" aria-selected="false" aria-controls="ui-accordion-accordion-panel-0" id="ui-accordion-accordion-header-0" role="tab" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" aria-label="Week 1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>
-        <a href="#">Robotics Level&nbsp;1</a>
+        <a href="#"> Level&nbsp;1</a>
       </h3>
 
     <ul aria-hidden="true" aria-expanded="false" role="tabpanel" aria-labelledby="ui-accordion-accordion-header-0" id="ui-accordion-accordion-panel-0" style="display: none;" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
@@ -89,7 +95,7 @@
   <div class="chapter">
       
       <h3 tabindex="-1" aria-selected="false" aria-controls="ui-accordion-accordion-panel-0" id="ui-accordion-accordion-header-0" role="tab" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" aria-label="Week 1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>
-        <a href="#">Robotics Level&nbsp;1</a>
+        <a href="#"> Level&nbsp;2</a>
       </h3>
 
     <ul aria-hidden="true" aria-expanded="false" role="tabpanel" aria-labelledby="ui-accordion-accordion-header-0" id="ui-accordion-accordion-panel-0" style="display: none;" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
@@ -116,7 +122,7 @@
   <div class="chapter">
       
       <h3 tabindex="-1" aria-selected="false" aria-controls="ui-accordion-accordion-panel-0" id="ui-accordion-accordion-header-0" role="tab" class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" aria-label="Week 1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>
-        <a href="#">Robotics Level&nbsp;1</a>
+        <a href="#">Level&nbsp;3</a>
       </h3>
 
   </div>
@@ -126,7 +132,7 @@
  
     <!--start of videos section-->
   <section id="pics">
-   <a href="/quiz">Watch a Video</a>
+   <a href="/serve">Watch a Video</a>
 <h3>Unit 1: Introduction to Robotics</h3>
  <p> 2.1: What is Robotics?<br>
 
@@ -139,8 +145,8 @@ without the aid of human interaction.
 “Rossum's Universal Robots” that was about a slave class of manufactured human-like servants and their struggle for freedom. The Czech word robota loosely means "compulsive servitude.” 
 The word robotics was first used by the famous science fiction writer, Isaac Asimov, in 1941. </p>
 
- <img src="assets/images/trt.jpg" width="300px" height="200px" alt="image 1"/>
-      <img src="assets/images/rere.jpg" width="300px" height="200px" alt="image 2"/>
+ <img src="assets/images/s2.jpg" width="300px" height="200px" alt="image 1"/>
+      <img src="assets/images/s3.jpg" width="300px" height="200px" alt="image 2"/>
     <p>The concept of creating machines that can operate autonomously dates back to classical times,
      but research into the functionality and potential uses of robots did not grow substantially until
       the 20th century.[2] Throughout history, robotics has been often seen to mimic human behavior,
@@ -178,4 +184,6 @@ of reasons, including: incorrect parameter (for example: mass, direction, distan
 
   {{$posts->links()}}-->
   </div>
+
+</div>
 @stop

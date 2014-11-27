@@ -38,7 +38,7 @@ class AuthController extends \BaseController {
             $user = User::create($data);
             // Redirect User
             if($user) return Redirect::to('login')
-                ->with('message', 'well , you have done it!');
+                ->with('message', 'Hooray, Account Created!');
         }
 
         return Redirect::back()->withErrors($Validation)->withInput();
@@ -60,7 +60,7 @@ class AuthController extends \BaseController {
             return Redirect::to('profile')->with('message', "Welcome $username");
         }
 
-        /*return Redirect::back()->with('message', 'Check Credentials');*/
+        return Redirect::back()->with('message', 'Check Credentials');
     }
 
     public function logout()

@@ -40,7 +40,7 @@ class ProfilesController extends \BaseController {
         $rules = [
             'firstname' => 'required',
             'lastname'  => 'required',
-            'email'     => 'unique:profiles,',
+            'phone'     => 'required|integer|unique:profiles,phone',
         ];
         $input = Input::all();
         $validation = Validator::make($input, $rules);
@@ -63,7 +63,7 @@ class ProfilesController extends \BaseController {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function show($id)
+	/*public function show($id)
 	{
         $profile = Auth::user()->profile;
 		return View::make('profiles.show', compact('profile'));
@@ -96,7 +96,8 @@ class ProfilesController extends \BaseController {
         $rules = [
             'firstname' => 'required',
             'lastname'  => 'required',
-            
+            'phone'     => 'required|integer|unique:profiles,phone,'.$id,
+        ];
         $input = Input::all();
         $validation = Validator::make($input, $rules);
 

@@ -15,9 +15,16 @@
         </style>
     </head>
     <body>
+
+ 
         <div class='container-fluid'>
+             <div class='row'>
+                @yield('search')
+
+            </div>
             <div class='row'>
                 @yield('content')
+
             </div>
         </div>
     </body>

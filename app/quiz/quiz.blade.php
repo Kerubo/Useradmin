@@ -1,4 +1,30 @@
-<title>E-BOTICS KENYA</title>
+<!DOCTYPE html>
+<!--[if IE 7]><html class="ie ie7 lte9 lte8 lte7" lang="en"><![endif]-->
+<!--[if IE 8]><html class="ie ie8 lte9 lte8" lang="en"><![endif]-->
+<!--[if IE 9]><html class="ie ie9 lte9" lang="en"><![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en"><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+{{HTML::style('assets/css/bootstrap.min.css')}}
+     {{HTML::style('quiz_files/css/jquery.css')}}
+
+ {{HTML::style('quiz_files/css/jquery.css')}}
+
+
+
+
+
+
+
+
+
+
+
+
+  <title>E-BOTICS KENYA</title>
 
   <script src="quiz_files/analytics.js" async=""></script><script type="text/javascript">
     /* immediately break out of an iframe if coming from the marketing website */
