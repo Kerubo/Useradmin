@@ -70,12 +70,22 @@
 <div id="content"><!-- start content -->
 
 <div id="container">
-<div id="slide">
-<br><br>
-<img src="assets/images/Ebot.png" height="100%" width="100%">
+<br><br><br><br>
+<br><br><br><br>
 
 <p>
-</div>
+<h2>OUR HISTORY<br></h2>
+Robotics brings together several very different engineering areas and skills. There is metalworking for the body. There is mechanics for mounting the wheels on the axles, connecting them to the motors and keeping the body in balance. You need electronics to power the motors and connect the sensors to the controllers. At last you need the software to understand the sensors and drive the robot around.
+
+This book tries to cover all the key areas of robotics as a hobby. When possible examples from industrial robots will be addressed too.Robotics brings together several very different engineering areas and skills. There is metalworking for the body. There is mechanics for mounting the wheels on the axles, connecting them to the motors and keeping the body in balance. You need electronics to power the motors and connect the sensors to the controllers. At last you need the software to understand the sensors and drive the robot around.
+
+This book tries to cover all the key areas of<br> robotics as a hobby. When possible examples from industrial robots will be addressed too.
+
+You'll notice very few "exact" values in these texts. <br>Instead, vague terms like "small", "heavy" and "light" will be used. This is because most of the time you'll have a lot of freedom in picking these values, and all robot projects are unique in available materials.
+
+You'll notice very few "exact" values in these texts. <br>Instead, vague terms like "small", "heavy" and "light" will be used. This is because most of the time you'll have a lot of freedom in picking these values, and all robot projects are unique in available materials.
+</p>
+
 </div>
 <div id="slider">
 
@@ -84,14 +94,17 @@
   
 <div id="lid">
 
+<img src="assets/images/Ebot.png" height="100%" width="100%">
+
 
 </div>
 <div id="li">
 
 <img src="assets/images/png.png">
 </div>
+
 <div id="lide">
-  
+ 
 
 </div>
 </div><!-- end footer -->
